@@ -16,10 +16,30 @@
 
 
 body {
+  background-color: #fff;
+  color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+#notice {
+  color: green;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+  color: #000;
 }
 
 p, ol, ul, td {
@@ -29,20 +49,14 @@ p, ol, ul, td {
   margin: 33px;
 }
 
-table {
-  border-collapse: separate;
-  text-indent: initial;
-  border-spacing: 2px;
+form {
+  display: block;
 }
 
-thead {
-  display: table-header-group;
-  vertical-align: middle;
-  border-color: inherit;
+div.field, div.actions {
+    margin-bottom: 10px;
 }
 
-tbody {
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;
+label {
+  display: block;
 }
